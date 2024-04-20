@@ -1,11 +1,5 @@
 public class HarshadNumber {
 
-    public static void main(String[] args) {
-        int x = 100;
-        String newV = String.valueOf(x);
-         int total = 0;
-
-    }
 
     public int sumOfTheDigitsOfHarshadNumber(int x) {
         String newV = String.valueOf(x);
