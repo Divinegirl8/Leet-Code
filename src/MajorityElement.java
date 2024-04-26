@@ -10,19 +10,19 @@ public class MajorityElement {
                     count++;
                 }
 
-                if (count > max){
-                    max = count;
-                    value = nums[temp];
+                if (count > value){
+                    max = nums[index];
                 }
+                value = count;
 
             }
 
         }
-    return value;
+    return max;
     }
 
     public static void main(String[] args) {
         System.out.println(new MajorityElement().majorityElement(new int[]{6,5,5}));
-        System.out.println(new MajorityElement().majorityElement(new int[]{2,2,1,1,1,2,2}));
+        System.out.println(new MajorityElement().majorityElement(new int[]{2,2,1,1,1,2,2,1,1}));
     }
 }
