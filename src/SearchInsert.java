@@ -6,7 +6,6 @@ public class SearchInsert {
                 value = index;
             } else if (nums[index] < target) {
                 value = index + 1;
-
             }
         }
         return value;
